@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-xvhm
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/quay-or-not-to-quay/nbe-e2e-qijk-tenant/integ-app-zohd/hacbs-test-project-xvhm@sha256:cc53c2915ad81cd8f9c602671742c716fa4e7c72ab8a747905561547ab060f0f
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
